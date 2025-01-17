@@ -27,7 +27,7 @@ public class Main {
         bedroom.getWardrobe().add();
         bedroom.getCarpet().lying();
 
-      
+
         System.out.println("Bedroom Name: " + bedroom.getName());
         System.out.println("Wall 1 Direction: " + bedroom.getWall1().getDirection());
         System.out.println("Ceiling Height: " + bedroom.getCeiling().getHeight());
