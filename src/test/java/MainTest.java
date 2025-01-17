@@ -1,5 +1,3 @@
-import org.example.model.*;
-import org.example.model.enums.LampType;
 import org.example.model.enums.PaintColor;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
