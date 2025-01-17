@@ -5,7 +5,7 @@ import org.example.model.enums.*;
 
 public class Main {
     public static void main(String[] args) {
-        // Sınıfların örnekleri oluşturuluyor
+
         Wall wall1 = new Wall("North");
         Wall wall2 = new Wall("South");
         Wall wall3 = new Wall("East");
@@ -16,10 +16,10 @@ public class Main {
         Wardrobe wardrobe = new Wardrobe(2, 2, 50.0);
         Carpet carpet = new Carpet(3, 4, PaintColor.RED);
 
-        // Bedroom sınıfının örneği oluşturuluyor
+
         Bedroom bedroom = new Bedroom("My Bedroom", wall1, wall2, wall3, wall4, ceiling, bed, lamp, wardrobe, carpet);
 
-        // Sınıfların metodları çağrılıyor
+
         bedroom.getWall1().create();
         bedroom.getCeiling().create();
         bedroom.getBed().make();
@@ -27,7 +27,7 @@ public class Main {
         bedroom.getWardrobe().add();
         bedroom.getCarpet().lying();
 
-        // Sınıfların özelliklerine erişiliyor
+      
         System.out.println("Bedroom Name: " + bedroom.getName());
         System.out.println("Wall 1 Direction: " + bedroom.getWall1().getDirection());
         System.out.println("Ceiling Height: " + bedroom.getCeiling().getHeight());
